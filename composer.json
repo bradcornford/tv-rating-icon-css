@@ -1,0 +1,23 @@
+{
+    "name": "cornford/tv-rating-icon-css",
+    "type": "component",
+    "description": "CSS icons for tv classification ratings",
+    "keywords": ["css", "icon", "tv", "rating", "classification"],
+    "license": "MIT",
+    "authors":[
+        {
+            "name": "Bradley Cornford",
+            "email": "me@bradleycornford.co.uk"
+        }
+    ],
+    "extra":{
+        "component":{
+            "name": "tv-rating-icon-css",
+            "files":[
+                "less/**",
+                "css/**",
+                "img/**"
+            ]
+        }
+    }
+}

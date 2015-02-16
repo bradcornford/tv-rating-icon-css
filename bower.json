@@ -1,0 +1,12 @@
+{
+    "name": "tv-rating-icon-css",
+    "main": "css/tv-rating-icon.min.css",
+    "ignore": [
+        "**/.*",
+        "assets",
+        "Gruntfile.coffee",
+        "index.html",
+        "LICENSE",
+        "package.json"
+    ]
+}
