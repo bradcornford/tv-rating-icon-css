@@ -1,4 +1,4 @@
-flag-icon-css
+tv-rating-icon-css
 =============
 
 CSS for TV classification ratings. See the
