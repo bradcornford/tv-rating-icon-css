@@ -3,13 +3,19 @@
   display: inline-block;
   width: 1em;
   line-height: 1em;
-  background-image: url(../img/dark/none.svg);
   background-size: contain;
   background-position: 50%;
   background-repeat: no-repeat;
+  background-image: url(../img/dark/none.svg);
 }
 .tv-rating-icon:before {
   content: "\00a0";
+}
+.tv-rating-icon-background {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-image: url(../img/dark/none.svg);
 }
 .tv-rating-icon-y {
   background-image: url(../img/dark/y.svg);
@@ -29,18 +35,28 @@
 .tv-rating-icon-ma {
   background-image: url(../img/dark/ma.svg);
 }
+.tv-rating-icon-background.tv-rating-icon-sm,
 .tv-rating-icon.tv-rating-icon-sm {
+  position: relative;
+  display: inline-block;
   width: 16px;
   height: 16px;
 }
+.tv-rating-icon-background.tv-rating-icon-md,
 .tv-rating-icon.tv-rating-icon-md {
+  position: relative;
+  display: inline-block;
   width: 32px;
   height: 32px;
 }
+.tv-rating-icon-background.tv-rating-icon-lg,
 .tv-rating-icon.tv-rating-icon-lg {
+  position: relative;
+  display: inline-block;
   width: 64px;
   height: 64px;
 }
+.tv-rating-icon-background.tv-rating-icon-dark,
 .tv-rating-icon.tv-rating-icon-dark {
   background-color: #000000;
   background-image: url(../img/dark/none.svg);
@@ -63,6 +79,7 @@
 .tv-rating-icon-dark.tv-rating-icon-ma {
   background-image: url(../img/dark/ma.svg);
 }
+.tv-rating-icon-background.tv-rating-icon-light,
 .tv-rating-icon.tv-rating-icon-light {
   background-color: #ffffff;
   background-image: url(../img/light/none.svg);
